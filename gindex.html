@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome web application for reminders lits generation">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
+    
+    <title>Speech to Text Converter</title>
+    <meta nema="viewport" conten="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="gstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://use.fonticons.com/ffe176a3.js"></script>
+    <script src="https://kit.fontawesome.com/65b1fa034a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!--<body>
+    <div class="container-fluid align-center">
+        <img src="assets/img/code-mic-150.png" alt="Voice Note App Logo">
+        <h1>Voice Note App</h1>
+        <p class="page-description">This app allows you to take voice and/or text notes and play them back.</p>-->
+<body class="rgheading" style="background-color:rgb(205, 202, 221);">
+    <div id="body">
+    
+            <nav>
+                <ul>  
+                    <li class="active"><a href="html.html">Go to Home Page<i class="fa fa-home"></i></a></li>
+                    
+                </ul>
+            </nav>
+            <div class="heading">
+                <h1>Speech to Text Converter</h1></div>
+           
+            <hr>
+            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+             <div class="app">
+                <div class="row">
+                    <div class="col-md-6 align-center">
+                        <h3>Add New Voice Note</h3>
+                        <div class="input-single">
+                            <textarea id="note-textarea" placeholder="Create a new note by voice recognition..." rows="6"></textarea>
+                        </div>
+                        <button id="start-record-btn" class="btn-success" title="Start Recording"><i class="fa-duotone fa-circle-microphone"></i>Start Recognition</button>
+                       <!--<button id="stop-record-btn" class="btn-warning" title="Stop Recording">Stop Recognition</button>-->
+                        <button id="save-note-btn" class="btn-info" title="Save Note">Save Note</button>
+                        <p id="recording-instructions">Press the
+                            <strong>Start Recognition</strong> button and allow access.</p>
+                    </div>
+                    <div class="col-md-6 align-center">
+                       
+                        <h3>My Voice Notes</h3>
+                        <ul id="notes">
+                            <li>
+                                <p class="no-notes">You don't have any notes.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /row --> 
+                </div>
+                <!-- /app -->
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="center">
+                            <p align="center">Speech to Text Voice Note Application 2022</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="gscript.js"></script>
+
+
+</body>
+
+</html>

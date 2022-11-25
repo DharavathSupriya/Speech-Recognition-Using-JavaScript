@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(228, 218, 218);
+   
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 3px;
+   /* text-transform: uppercase;*/
+}
+/*.active, li a:hover{
+    background-color: gray;
+    text-transform: uppercase;
+    box-sizing: 0px;
+    padding-block-end: 0%;
+}*/
+.heading h1{
+    color: black;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #332828;
+    
+}
+/*---------------------------*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+/*.tz-link {
+    font-family: 'Castellar';
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}*/
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+    width: 80%;
+    resize: none;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+    color: white;
+}
+button .btn-success{
+    width: 100px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: rgb(214, 53, 53);
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.note .content {
+    margin-bottom: 30px;
+    color: rgb(15, 14, 14);
+}
+
+.align-center img {
+    padding-top: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+    button {
+        margin-bottom: 20px;
+        padding: 10px 10px;
+        width: 100%;
+    }
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 0px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    height: 100px;
+}
+.footer div{
+    text-align: center;
+}
+.center p{
+    color: #efefef;
+}
+
+/*button{
+    background-color: rgba(16, 1, 31, 0.468);
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+}*/
