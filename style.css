@@ -10,39 +10,36 @@ nav{
     float: left;
     margin: 0;
     overflow:hidden;
-    text-align: center;
+    background: #0082e6;
 }
 
 nav ul{
     float: right;
-    margin-right: 10px;
-    padding: 30px;
+    padding: 5px;
   }
 
 nav ul li{
     display: inline-block;
     list-style-type: none;
-    line-height: 80px;
-    margin: 0 5px;
 }
 
 nav > ul > li > a{
     color: white;
     display: block;
-    line-height: 1em;
+    line-height: 3em;
     text-decoration: none;
     font-size: 17px;
-    padding: 5px 10px;
-    border-radius: 3px;
+    padding: 5px 40px;
+    align-item: right;
 }
 
 .logo-img{
     float: left;
     position: relative;
-    margin: 10px 15px 15px 10px;
+    margin: 10px 10px 10px 10px;
 }
 .bg-div{
-   background:#333;
+   background: #0082e6;
    overflow: hidden;
 }
 /*.active, li a:hover{
@@ -51,30 +48,60 @@ nav > ul > li > a{
     box-sizing: 0px;
     padding-block-end: 0%;
 }*/
-.heading h1{
-    color: white;
-    font-family: Arial;
-    font-size: 50px;
+h1{
+    color: black;
+    font-family: Algerian;
+    font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
     
 }
 /*---------------------------*/
+.image img {
+  display: block;
+  width: 900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
 ul {
     list-style: none;
     padding: 0;
 }
 
+.content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+}
 p {
-    color: #444;
+  margin-top: 0;
+  margin-bottom: 1rem;
+box-sizing: border-box;
 }
 
 button {
     margin-bottom: 20px;
     padding: 10px 10px;
     cursor: pointer;
+  position: relative;
+  border: 3px solid green;
 }
-
+#button-continue {
+  color: rgb(199, 197, 197);
+  background-color: green;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 button:focus {
     outline: 0;
 }
