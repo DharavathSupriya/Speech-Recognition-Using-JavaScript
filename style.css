@@ -1,31 +1,49 @@
-body{
+html,body{
     margin: 0;
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: rgb(228, 218, 218);
    
 }
+/* Navigation */
 nav{
-    background: #0082e6;
-    height: 80px;
-    width: 100%;
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
 }
-  nav ul{
+
+nav ul{
     float: right;
-    margin-right: 30px;
+    margin-right: 10px;
+    padding: 30px;
   }
-  nav ul li{
+
+nav ul li{
     display: inline-block;
+    list-style-type: none;
     line-height: 80px;
     margin: 0 5px;
-  }
-  nav ul li a{
+}
+
+nav > ul > li > a{
     color: white;
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
     font-size: 17px;
     padding: 5px 10px;
     border-radius: 3px;
-   /* text-transform: uppercase;*/
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
 }
 /*.active, li a:hover{
     background-color: gray;
@@ -34,11 +52,11 @@ nav{
     padding-block-end: 0%;
 }*/
 .heading h1{
-    color: black;
+    color: white;
     font-family: Arial;
     font-size: 50px;
     text-align: center;
-    text-shadow: 2px 2px 4px #332828;
+    text-shadow: 2px 2px 4px #000000;
     
 }
 /*---------------------------*/
@@ -128,7 +146,7 @@ button .btn-success{
 
 .note .content {
     margin-bottom: 30px;
-    color: rgb(15, 14, 14);
+    color: white;
 }
 
 .align-center img {
