@@ -13,63 +13,89 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fonticons.com/ffe176a3.js"></script>
-    <script src="https://kit.fontawesome.com/65b1fa034a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/facf17c66b.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="sttc.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&amp;family=Questrial&amp;family=Poppins&amp;family=Roboto:wght@300&amp;display=swap');
+    </style>
+    <style>
+        body {
+            background-color: rgb(15, 20, 42);
+        }
+
+        .page-text {
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .page-text p {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 32px;
+            color: lightgrey;
+        }
+    </style>
 
 </head>
 
-<body style="background-color:white;">
+<body>
     <div class="bg-div">
         <img class="logo-img" src="sttc.png" width="350" height="65" ALT="align box" ALIGN=CENTER>
         <nav>
             <ul class="d-flex ms-auto order-5">
                 <li><a href="#">Home</a></li>
-                <li><a href="index.html">Speech Recognition</a></li>
+                <li><a href="main.html">Speech Recognition</a></li>
             </ul>
         </nav>
     </div>
     <hr>
+    <hr>
     <h1>Speech To Text Converter Web Application</h1>
-    <p align="center" class="page-description">Speech Recognition Using the Web Speech API in JavaScript</p>
+    <center>
+        <p style="color: white;" class="page-description">Speech Recognition Using the Web Speech
+            API in JavaScript</p>
+    </center>
     </br>
     <div class="image" style="justify-content: center;">
         <a href="#"><img src="webspeechpic.webp"></a>
     </div>
-    </br>
-    </br>
-    <div class="content">
+    <hr>
+    <div class="page-text">
         <p class="description">The Web Speech API is used to incorporate voice data into web apps. </p>
-        <h3>WHAT IS SPEECH TO TEXT?</h3>
+        <h3>About the Speech to Text Converter</h3>
         <P>Speech to text is the part of modern technology that allows users to translate voice to text in real
             time. This technology is based on speech recognition and has great value for people who need to generate
             a lot of content without getting involved in manual typing. It's also helpful for people who are unable
             to use keyboards due to some disabilities.</P>
-        <h3>ABOUT THE SPEECH TO TEXT CONVERTER</h3>
         <P>The speech to text converter offered on "Web Speech API" is a application that allows users to
-            convert audio to text.
-            It will assist in minimizing writing efforts significantly. Our tool is free of cost, no download,
-            installation, or registration is required.
-            The users can make as many conversions as they need. Our voice recognition tool is used daily by
-            students, teachers, writers, bloggers around the world.
-            Just click the microphone button and start dictating.This application is also useful for the people who
-            are suffering with a disease called <strong>Alzheimer's, </strong>to know more about this disease
-            click<a href="https://en.wikipedia.org/wiki/Alzheimer%27s_disease"> here.</a></P>
+            convert audio to text. It will assist in minimizing writing efforts significantly. The users can make as
+            many conversions as they need. Our voice recognition tool is used daily by students, teachers, writers,
+            bloggers around the world. Just click the microphone button and start dictating.
+        </P>
         <div class="steps-to-recognise">
             <h3>HOW TO USE OUR SPEECH TO TEXT CONVERTER ONLINE?</h3>
             <p>Just follow the simple steps given below:</p>
-            <p><span style="color: red;">Step # 1:</span> Access the Microphone to recognise speech</p>
-            <p><span style="color: red;">Step # 2:</span> Start speaking in Microphone the application automatically
+            <p><span style="color: red;">Step # 1:</span> Click on "Start" button, a pop-up is shown give access to the
+                the Microphone to record speech.</p>
+            <p><span style="color: red;">Step # 2:</span> Start speaking in the Microphone the application automatically
                 recognises the speech then convertes that into text.</p>
             <p><span style="color: red;">Step # 3:</span> Click on the "save note" button.</p>
             <p><span style="color: red;">Step # 4:</span> Now your speech is saved to "My voice note" area. if you
                 want to delete that text you can click on the "Delete text" button</p>
         </div>
         <div class="wrapper">
-            <a href="index.html"><button id="button-continue"
-                    class="btn-continue">Click here to Get Started</button></a>
+            <a href="main.html"><button id="button-continue" class="btn-continue">Click here to Get
+                    Started</button></a>
         </div>
         <hr>
     </div>

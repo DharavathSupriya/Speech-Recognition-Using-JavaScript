@@ -160,7 +160,8 @@ function renderNotes(notes) {
       </li>`;
     });
   } else {
-    html = '<li><p class="content">You don\'t have any notes yet.</p></li>';
+    html =
+      '<li><p style="color: red;" class="content">You don\'t have any notes yet!!</p></li>';
   }
   notesList.html(html);
 }
